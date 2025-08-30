@@ -1,0 +1,103 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event Mangangement</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        
+        <nav>
+            <a href="index.html"><img src="images/logo1.jpg"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <h1>Our Services</h1>
+    </section>
+<!-------- Services ---------->  
+<section class="services">
+        <h1>Services We Offer</h1>
+        <p>CORPORATE EVENTS,VIRTUAL AND HYBRID EVENTS,LARGE FORMAT EVENTS</p>
+        <div class="row">
+            <div class="services-col">
+                <h3>Corporate Events</h3>
+                <p>We specialize in planning and executing professional corporate events that leave a lasting impression. From small team gatherings to large-scale conferences, our services include:Annual Meetings & Conferences,Product Launches,Award Ceremonies,Corporate Parties & Celebrations.</p>
+            </div>
+            <div class="services-col">
+                <h3>Virtual and Hybrid events</h3>
+                <p>Bring people together seamlessly, no matter where they are. We design engaging virtual and hybrid experiences using the latest technology, ensuring smooth interaction and maximum participation. Our services include:Virtual Conferences & Webinars,Hybrid Product Launches,Online Award Ceremonies and many more.</p>
+            </div>
+            <div class="services-col">
+                <h3>Large Formate Events</h3>
+                <p>We specialize in creating unforgettable large-scale experiences that captivate thousands of attendees.From conceptualization to flawless execution, we ensure every detail is managed with precision and creativity. Our expertise covers:Music Concerts & Festivals,Grand Product Launches,Sporting Events,Mega Celebrations & Public Gatherings.</p>
+            </div>
+        </div>
+    </section>
+ <!---------- Facility ------>
+    
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <p>At our event management company, we provide state-of-the-art facilities to ensure every event is executed flawlessly. From advanced sound and lighting systems, LED walls, and visual effects to stage design, décor, and venue setup, we take care of every production detail with precision.</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/event7.jpeg">
+                    <h3>Our's Best lightning</h3>
+                    <p>Lighting is the heartbeat of every successful event, and we pride ourselves on delivering the best lighting solutions that transform ordinary spaces into extraordinary experiences</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/event8.jpeg">
+                    <h3>Our's Best Sound System</h3>
+                    <p>Sound is the soul of every event, and we ensure crystal-clear audio that resonates with every guest.ith advanced speakers, mixers, and acoustic balancing, we create immersive audio experiences that match the scale and mood of your event.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/event9.jpeg">
+                    <h3>Our's Best InLine Systems</h3>
+                    <p>This stunning stage setup showcases the perfect blend of lighting, sound, and visual effects that bring events to life.</p>
+                </div>
+            </div>
+    </section>     
+
+
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>At Friend’s Audio Visual, we make your events hassle-free and memorable. With over 12 years of experience, we provide complete event solutions—from planning to execution—all under one roof.<br>Whether it’s a wedding, corporate event, or celebration, we focus on creativity, quality, and smooth execution to bring your vision to life.</p>
+        
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>
+
+
+
+
+
+
+
